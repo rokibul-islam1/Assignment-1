@@ -7,17 +7,21 @@ h1{
     font-size: 70px;
     font-weight: 900;
 }
-
-.button{
-    text-decoration: none ;
-    background-image: linear-gradient(yellow , red);
-    padding: 20px 40px;
-    border-radius: 30px;
-    font-weight: 900;
-    font-size: 30px;
-    
-    
+.profile-bg{
+    background-color: black;
+    margin-bottom: 100px;
 }
+.font-color{
+    color: blanchedalmond;
+    padding: 5%;
+}
+#my-pic{
+    border: blanchedalmond solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+}
+
 .flex-display{
     display: flex;
 }
@@ -26,14 +30,20 @@ h1{
 }
 .bg-image{
     background-image: url(Images/Frame\ 57.jpg);
-    height: 80%%;
-
+    height: 80%;
 }
 .half-width{
     width: 50%;
     margin: 100px;
-    padding: 5%
-
+    padding: 5%;
+}
+.button{
+    text-decoration: none ;
+    background-image: linear-gradient(yellow , red);
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-weight: 900;
+    font-size: 30px;
 }
 .half-width img{
     width: 130%;
@@ -49,7 +59,6 @@ h1{
 }
 .text-align{
     text-align: center;
-    color: black;
 }
 .recepie-item{
     box-shadow:10px 10px 40px grey;
@@ -67,6 +76,6 @@ h1{
 }
 
 footer{
-    background-image: linear-gradient(grey , white);
-    padding: 2%;
+    background-color: rgb(0, 3, 7);
+    
 }
